@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "6360aea70e7bb8a1efab85ae"
+  },
+  "medicineid": 1,
+  "medicinename": "cold Medicine",
+  "price": 100,
+  "tag": "General",
+  "date": {
+    "$date": {
+      "$numberLong": "1667280551061"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6360aebe0e7bb8a1efab85b1"
+  },
+  "medicineid": 2,
+  "medicinename": "healthtonic Medicine",
+  "price": 300,
+  "tag": "General",
+  "date": {
+    "$date": {
+      "$numberLong": "1667280574608"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6360aed00e7bb8a1efab85b4"
+  },
+  "medicineid": 3,
+  "medicinename": "ENT Medicine",
+  "price": 400,
+  "tag": "General",
+  "date": {
+    "$date": {
+      "$numberLong": "1667280592144"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6360ca15554928e965e6894c"
+  },
+  "medicineid": 4,
+  "medicinename": "Antibiotic Medicine",
+  "price": 99,
+  "tag": "General",
+  "date": {
+    "$date": {
+      "$numberLong": "1667287573209"
+    }
+  },
+  "__v": 0
+}]

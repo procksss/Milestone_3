@@ -17,6 +17,7 @@ import Footer from './Component/Footer';
 import Cart from './Component/Cart';
 import Orderpage from './Component/Orderpage';
 import Medicine from './Component/Medicine';
+import PageNotFound from './Component/PageNotFound';
 
 
 
@@ -43,7 +44,8 @@ function App() {
       <Route exact path="/signup" element={<Signup/>} />
       <Route exact path="/cart" element={<Cart></Cart>} />
       <Route exact path="/orderpage" element={<Orderpage></Orderpage>} />
-      <Route exact path="/medicines" element={<Medicine></Medicine>} />
+      <Route exact path="/medicineid" element={<Medicine></Medicine>} />
+      <Route path="*" element={<PageNotFound></PageNotFound>} />
       </Routes>
       </div>
       <Footer></Footer>

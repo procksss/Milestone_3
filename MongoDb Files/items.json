@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "6360c4e8272fd1543bc52d78"
+  },
+  "user": {
+    "$oid": "635f967fa06999f9f63f1469"
+  },
+  "medicineid": 2,
+  "medicinename": "healthtonic Medicine",
+  "price": 300,
+  "tag": "General",
+  "date": {
+    "$date": {
+      "$numberLong": "1667286248407"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6360c4e8272fd1543bc52d7a"
+  },
+  "user": {
+    "$oid": "635f967fa06999f9f63f1469"
+  },
+  "medicineid": 4,
+  "medicinename": "Antibiotic Medicine",
+  "price": 99,
+  "tag": "General",
+  "date": {
+    "$date": {
+      "$numberLong": "1667286248422"
+    }
+  },
+  "__v": 0
+}]

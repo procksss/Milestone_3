@@ -1,3 +1,5 @@
+//Medistore
+
 1.Backend(Server Side) folder is present in this folder.
 2.Screenshots and videos of api testing, mongoDB, Git Upload and woring of ui is present in screenshot folder
 3.The Node Module folder is note present in the zip ypu have to install it by npm install to install all the dependencies both on sever

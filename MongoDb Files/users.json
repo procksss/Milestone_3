@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "6360bfdd593885fd3946061d"
+  },
+  "firstname": "Admin",
+  "lastname": "Ray",
+  "address": "Aiims Nagar, bbsr",
+  "email": "pratyush120@gmail.com",
+  "password": "$2b$10$zviwdH5p1v5bFlgMqH.xEOYrDl1L3W0AhwNDLS5dPVIxkrS1mG8NC",
+  "Isadmin": true,
+  "date": {
+    "$date": {
+      "$numberLong": "1667284957687"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6360c92668e8c05818c24b8b"
+  },
+  "firstname": "Admin",
+  "lastname": "Ray",
+  "address": "Aiims Nagar, bbsr",
+  "email": "pratyush12345@gmail.com",
+  "password": "$2b$10$Yj1J.DLp2Us0kk2SAMTlfuIMzj9AdmrdQ.zCMSz33CMTQ2wEMBfDe",
+  "Isadmin": false,
+  "date": {
+    "$date": {
+      "$numberLong": "1667287334982"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6360c93368e8c05818c24b8e"
+  },
+  "firstname": "Pratyush",
+  "lastname": "Ray",
+  "address": "Plot No. 267, Lane 8, Aiims Nagar, Patrapada",
+  "email": "pratyush112233@gmail.com",
+  "password": "$2b$10$cMBOYGYcfPxMS0UGbf38SOZg2cay23ZxljaDWIOHfrm4lRSfzvZ4.",
+  "Isadmin": false,
+  "date": {
+    "$date": {
+      "$numberLong": "1667287347237"
+    }
+  },
+  "__v": 0
+}]

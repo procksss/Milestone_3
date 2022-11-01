@@ -359,8 +359,8 @@ export default function AuthState(props) {
 
   return (
     <AuthContext.Provider value={{createUser, Data, loginUser, showalert, alert,getalldata,allusers,deleteuser,edituser,progress, useritems,setuseritems,allitems,setallitems,getitems,createitems, edititem,deleteitem, getallitems,cart,setcart,createallitems, editallitem,deleteallitem, }}>
-      <LoadingBar color={"rgb(0, 255, 226)"} progress={progress} height={3}
-    onLoaderFinished={() => setloading(0)} />
+      {/* <LoadingBar color={"rgb(0, 255, 226)"} progress={progress} height={3}
+    onLoaderFinished={() => setloading(0)} /> */}
         {props.children}
     </AuthContext.Provider>
 

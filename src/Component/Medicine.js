@@ -80,7 +80,7 @@ export default function Medicine() {
     </div>
       {localStorage.getItem('admin')?<div className="text-center my-1" style={{"color":"red"}}>Loggined as ADMIN </div>:[]}
       <div>
-          <h4 className="display-6 my-2"><strong>User </strong>Details</h4>
+          <h4 className="display-6 my-2"><strong>Medicine </strong>Details</h4>
       <table className="table table-dark table-striped">
       <thead>
         <tr>
@@ -94,7 +94,7 @@ export default function Medicine() {
       <tbody>
       {allitems.map(item => {
         
-              return (<tr>
+              return (<tr key={item._id}>
          
                 <td>{item.medicineid}</td>
                 <td>{item.medicinename}</td>
